@@ -1,4 +1,4 @@
-package unicreo.com.imageviewer
+package unicreo.com.zoomableimagegallery
 
 import android.content.Context
 import android.view.MotionEvent

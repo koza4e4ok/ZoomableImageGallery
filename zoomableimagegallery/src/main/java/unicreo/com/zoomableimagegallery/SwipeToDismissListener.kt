@@ -1,4 +1,4 @@
-package unicreo.com.imageviewer
+package unicreo.com.zoomableimagegallery
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

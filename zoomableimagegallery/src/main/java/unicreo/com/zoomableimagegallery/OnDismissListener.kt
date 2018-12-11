@@ -1,4 +1,4 @@
-package unicreo.com.imageviewer
+package unicreo.com.zoomableimagegallery
 
 interface OnDismissListener {
     abstract fun onDismiss()

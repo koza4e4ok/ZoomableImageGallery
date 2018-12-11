@@ -3,6 +3,8 @@ package unicreo.com.imageviewer
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import unicreo.com.zoomableimagegallery.ImageViewer
+
 
 class MainActivity : AppCompatActivity() {
 
