@@ -1,4 +1,20 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+
+    }
+    dependencies {
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.0'
+    }
+}
+
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+
 
 android {
     compileSdkVersion 28
@@ -25,6 +41,29 @@ android {
 
 }
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'zoomableimagegallery'
+
+    publishedGroupId = 'unicreo.com.zoomableimagegallery'
+    libraryName = 'ZoomableImageGallery'
+    artifact = 'zoomableimagegallery'
+
+    libraryDescription = 'Image gallery based on FrescoImageViewer with using Glide library'
+
+    siteUrl = 'https://github.com/koza4e4ok/ZoomableImageGallery'
+    gitUrl = 'https://github.com/koza4e4ok/ZoomableImageGallery.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'fffa'
+    developerName = 'Andrii Kozakov'
+    developerEmail = 'kozakov.andrii@google.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 dependencies {
 

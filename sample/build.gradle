@@ -26,8 +26,5 @@ dependencies {
     implementation project(':zoomableimagegallery')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
-    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
-    implementation 'com.github.bumptech.glide:glide:4.8.0'
-    implementation 'jp.wasabeef:glide-transformations:3.0.1'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
 }
